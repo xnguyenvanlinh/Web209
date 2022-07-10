@@ -1,13 +1,6 @@
 import './App.css'
-import { useState } from 'react'
-
+import Game from './Game'
 function App() {
-  const [status, setStatus] = useState(false)
-  return (
-    <button className="App" onClick={() => setStatus(!status)}>
-      {status ? 'You like' : 'Love it'}
-    </button>
-  )
+  return <Game />
 }
-
 export default App

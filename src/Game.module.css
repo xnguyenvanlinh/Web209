@@ -1,0 +1,12 @@
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  max-width: 200px;
+}
+h2 {
+  color: green;
+}
+button {
+  cursor: pointer;
+}
